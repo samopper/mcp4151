@@ -22,7 +22,7 @@ void MCP4151::begin(){
 }
 
 unsigned int MCP4151::getResistance(){
-  return _step * 39 + 100; // 39 ohms/step  
+  return _step * 39; // 39 ohms/step  
 }
 
 unsigned char MCP4151::getStep(){
